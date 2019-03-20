@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>444.42</string>
+	<key>AMApplicationVersion</key>
+	<string>2.9</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>Run Shell Script</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>python /Users/hellosaumil/Dropbox/IFTTT/MacActions/macActions.py</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>713AECF3-5294-4E9D-98FC-CCA093A0F51C</string>
+				<key>Keywords</key>
+				<array>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>864E5782-7F39-4140-B0C5-CD4C99E56ABF</string>
+				<key>UUID</key>
+				<string>5C244DC1-EC53-4A41-B03F-6D5ABC98F4BC</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>496.000000:252.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on changeCaseOfText(theText, theCaseToSwitchTo)	if theCaseToSwitchTo contains "lower" then		set theComparisonCharacters to "ABCDEFGHIJKLMNOPQRSTUVWXYZ"		set theSourceCharacters to "abcdefghijklmnopqrstuvwxyz"	else if theCaseToSwitchTo contains "upper" then		set theComparisonCharacters to "abcdefghijklmnopqrstuvwxyz"		set theSourceCharacters to "ABCDEFGHIJKLMNOPQRSTUVWXYZ"	else		return theText	end if	set theAlteredText to ""	repeat with aCharacter in theText		set theOffset to offset of aCharacter in theComparisonCharacters		if theOffset is not 0 then			set theAlteredText to (theAlteredText &amp; character theOffset of theSourceCharacters) as string		else			set theAlteredText to (theAlteredText &amp; aCharacter) as string		end if	end repeat	return theAlteredTextend changeCaseOfTexton startswith(txt, l)	repeat with v in l		if txt starts with v then return true	end repeat	falseend startswithon run {input, parameters}		set StatusRx to item 1 in input		set StatusRx_lower to changeCaseOfText(StatusRx, "lower")		if not startswith(StatusRx_lower, {"powerpoint", "powerpoint-"}) then				#log "False - Regular"				if (StatusRx is equal to "Sleep") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=Sleep"			do shell script "curl " &amp; quoted form of theURL						say "Going to Sleep... Good Night!"						tell application "Finder"				sleep			end tell					else if (StatusRx is equal to "WakeUp") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=Your%20Mac%20isON"			do shell script "curl " &amp; quoted form of theURL						say "Wake up...!"			say "I'm alive and well in case you were wondering..."						tell application "Finder"				activate			end tell					else if (StatusRx is equal to "ScreenSaver") then			set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=ScreenSaver"			do shell script "curl " &amp; quoted form of theURL						say "Saumil...Starting Screen Saver!"						tell application "System Events"				start current screen saver			end tell					else if (StatusRx is equal to "ShutDown") then			set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=ShutDown"			do shell script "curl " &amp; quoted form of theURL						say "Saumil...Shutting your Mac down..."						tell application "Finder"				shut down			end tell					else if (StatusRx is equal to "ReStart") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=ReStart"			do shell script "curl " &amp; quoted form of theURL						say "Saumil...Behold! Restarting your Mac."						tell application "Finder"				restart			end tell					else if (StatusRx is equal to "LockScreen") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=LockScreen"			do shell script "curl " &amp; quoted form of theURL						say "Don't worry... Security measures are being applied to your Mac."						tell application "System Events"				keystroke "q" using {command down, control down}			end tell					else if (StatusRx is equal to "IncreaseVolume") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=IncreaseVolume"			do shell script "curl " &amp; quoted form of theURL						say "Saumil...Increasing Volume to 75%..."						set volume output volume 75 --100"%					else if (StatusRx is equal to "LowerVolume") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=LowerVolume"			do shell script "curl " &amp; quoted form of theURL						say "Saumil...Decreasing Volume to 75%..."						set volume output volume 25 --100"%					else if (StatusRx is equal to "okGoogle") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=okGoogle"			do shell script "curl " &amp; quoted form of theURL						# set volume output volume 70 --100"%						say "Saumil...Google Assistant says Hello!..."					else			set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=Unknown"			do shell script "curl " &amp; quoted form of theURL						say "Hang in there, it's not what you asked for!"			say StatusRx			return "Hang in there, it's not what you asked for!"					end if			else		#log "True"				if (StatusRx is equal to "powerpoint-open") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=powerpoint-open"			do shell script "curl " &amp; quoted form of theURL									tell application "Microsoft PowerPoint"								activate								set filepath to choose file								open filepath							end tell					else if (StatusRx is equal to "powerpoint-start") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=powerpoint-start"			do shell script "curl " &amp; quoted form of theURL									tell application "Microsoft PowerPoint"								activate								set act_pres to slide show settings of active presentation								set act_pres's range type to slide show range				set act_pres's advance mode to slide show advance manual advance								set starting slide of act_pres to 1								set act_show to run slide show act_pres				set act_slide to slide show view of act_show							end tell								else if (StatusRx is equal to "powerpoint-next") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=powerpoint-next"			do shell script "curl " &amp; quoted form of theURL						tell application "Microsoft PowerPoint"								activate								set act_pres to slide show settings of active presentation								set act_pres's range type to slide show range				set act_pres's advance mode to slide show advance manual advance												set act_show to run slide show act_pres				set act_slide to slide show view of act_show								go to next slide act_slide							end tell					else if (StatusRx is equal to "powerpoint-prev") then						set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=powerpoint-prev"			do shell script "curl " &amp; quoted form of theURL						tell application "Microsoft PowerPoint"								activate								set act_pres to slide show settings of active presentation								set act_pres's range type to slide show range				set act_pres's advance mode to slide show advance manual advance												set act_show to run slide show act_pres				set act_slide to slide show view of act_show								go to previous slide act_slide							end tell					else			set theURL to "https://maker.ifttt.com/trigger/MacActions/with/key/bEK1kpyeCDV28ntU5LZ72l?value1=Unknown"			do shell script "curl " &amp; quoted form of theURL						say "Hang in there, it's not what you asked for!"			say StatusRx			return "Hang in there, it's not what you asked for!"					end if			end if		return input	end run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>8B9640F1-9177-4372-82CD-4CE097719EF9</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>85D71DD7-9272-47BD-9169-135842FF420D</string>
+				<key>UUID</key>
+				<string>2B199FEF-3565-4059-942A-07B6EAD715E8</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>496.000000:948.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>1B775A24-01E3-4BAB-A2CF-3AD13ACBCA79</key>
+		<dict>
+			<key>from</key>
+			<string>5C244DC1-EC53-4A41-B03F-6D5ABC98F4BC - 5C244DC1-EC53-4A41-B03F-6D5ABC98F4BC</string>
+			<key>to</key>
+			<string>2B199FEF-3565-4059-942A-07B6EAD715E8 - 2B199FEF-3565-4059-942A-07B6EAD715E8</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>folderActionFolderPath</key>
+		<string>~/Dropbox/IFTTT/MacActions</string>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.folderAction</string>
+	</dict>
+</dict>
+</plist>

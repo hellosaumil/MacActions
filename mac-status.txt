@@ -1,6 +1,0 @@
-"WakeUp"
-"ShutDown"
-"ReStart"
-"ScreenSaver"
-"LockScreen"
-"Sleep"

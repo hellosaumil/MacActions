@@ -13,7 +13,7 @@ def log_message(msg):
     f.write("\n"+str(msg))
     f.close()
 
-    os.remove( log_path+actions_file )
+    os.remove( actions_path+actions_file )
 
 z = json.loads( '{' + open( actions_path+actions_file ).read() +'}' )
 
